@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A4B259026DBCD8D00EC3484 /* GifData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B258D26DBCD8D00EC3484 /* GifData.swift */; };
+		7A4B259126DBCD8D00EC3484 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B258E26DBCD8D00EC3484 /* Gif.swift */; };
+		7A4B259226DBCD8D00EC3484 /* GifNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B258F26DBCD8D00EC3484 /* GifNetworkManager.swift */; };
+		7A4B259626DBCDA000EC3484 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B259426DBCDA000EC3484 /* iOSDevCenters+GIF.swift */; };
+		7A4B259726DBCDA000EC3484 /* UIImageView+loadGifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B259526DBCDA000EC3484 /* UIImageView+loadGifImage.swift */; };
+		7A4B259F26DBCEEE00EC3484 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B259E26DBCEEE00EC3484 /* Constants.swift */; };
+		7A4B25A226DBD26600EC3484 /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B25A126DBD26600EC3484 /* GifCell.swift */; };
+		7A4B25A526DBD5CA00EC3484 /* UIView+edgesToSuperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B25A426DBD5CA00EC3484 /* UIView+edgesToSuperView.swift */; };
+		7A4B25AA26DC0F9000EC3484 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A4B25AC26DC0F9000EC3484 /* Localizable.strings */; };
 		7A50984426DAA596001B3777 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50984326DAA596001B3777 /* AppDelegate.swift */; };
 		7A50984626DAA596001B3777 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50984526DAA596001B3777 /* SceneDelegate.swift */; };
-		7A50984826DAA596001B3777 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50984726DAA596001B3777 /* ViewController.swift */; };
-		7A50984B26DAA596001B3777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A50984926DAA596001B3777 /* Main.storyboard */; };
 		7A50984D26DAA597001B3777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A50984C26DAA597001B3777 /* Assets.xcassets */; };
 		7A50985026DAA597001B3777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A50984E26DAA597001B3777 /* LaunchScreen.storyboard */; };
+		7A50985C26DAA9BA001B3777 /* GifCollectorMainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50985B26DAA9BA001B3777 /* GifCollectorMainTabBar.swift */; };
+		7A50986426DAABFE001B3777 /* GifCollectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A50986326DAABFE001B3777 /* GifCollectorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A4B258D26DBCD8D00EC3484 /* GifData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifData.swift; sourceTree = "<group>"; };
+		7A4B258E26DBCD8D00EC3484 /* Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		7A4B258F26DBCD8D00EC3484 /* GifNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifNetworkManager.swift; sourceTree = "<group>"; };
+		7A4B259426DBCDA000EC3484 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		7A4B259526DBCDA000EC3484 /* UIImageView+loadGifImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+loadGifImage.swift"; sourceTree = "<group>"; };
+		7A4B259E26DBCEEE00EC3484 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7A4B25A126DBD26600EC3484 /* GifCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
+		7A4B25A426DBD5CA00EC3484 /* UIView+edgesToSuperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+edgesToSuperView.swift"; sourceTree = "<group>"; };
+		7A4B25AB26DC0F9000EC3484 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7A4B25AE26DC103000EC3484 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7A4B25AF26DC103000EC3484 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7A50984026DAA596001B3777 /* GifColl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifColl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A50984326DAA596001B3777 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A50984526DAA596001B3777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7A50984726DAA596001B3777 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7A50984A26DAA596001B3777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A50984C26DAA597001B3777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A50984F26DAA597001B3777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A50985126DAA597001B3777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A50985B26DAA9BA001B3777 /* GifCollectorMainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectorMainTabBar.swift; sourceTree = "<group>"; };
+		7A50986326DAABFE001B3777 /* GifCollectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifCollectorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A4B258B26DBCD5500EC3484 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B258E26DBCD8D00EC3484 /* Gif.swift */,
+				7A4B258D26DBCD8D00EC3484 /* GifData.swift */,
+				7A4B258F26DBCD8D00EC3484 /* GifNetworkManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A4B258C26DBCD6A00EC3484 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B25A426DBD5CA00EC3484 /* UIView+edgesToSuperView.swift */,
+				7A4B259426DBCDA000EC3484 /* iOSDevCenters+GIF.swift */,
+				7A4B259526DBCDA000EC3484 /* UIImageView+loadGifImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7A4B259A26DBCDF600EC3484 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A50985B26DAA9BA001B3777 /* GifCollectorMainTabBar.swift */,
+				7A50986326DAABFE001B3777 /* GifCollectorViewController.swift */,
+				7A4B25A126DBD26600EC3484 /* GifCell.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		7A4B259C26DBCE0900EC3484 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A50984E26DAA597001B3777 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7A50983726DAA596001B3777 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +114,26 @@
 		7A50984226DAA596001B3777 /* GifColl */ = {
 			isa = PBXGroup;
 			children = (
-				7A50984326DAA596001B3777 /* AppDelegate.swift */,
-				7A50984526DAA596001B3777 /* SceneDelegate.swift */,
-				7A50984726DAA596001B3777 /* ViewController.swift */,
-				7A50984926DAA596001B3777 /* Main.storyboard */,
-				7A50984C26DAA597001B3777 /* Assets.xcassets */,
-				7A50984E26DAA597001B3777 /* LaunchScreen.storyboard */,
+				7A4B258C26DBCD6A00EC3484 /* Extensions */,
+				7A4B258B26DBCD5500EC3484 /* Models */,
+				7A4B259C26DBCE0900EC3484 /* Views */,
+				7A4B259A26DBCDF600EC3484 /* View controllers */,
+				7A50985926DAA99C001B3777 /* Supporting files */,
 				7A50985126DAA597001B3777 /* Info.plist */,
 			);
 			path = GifColl;
+			sourceTree = "<group>";
+		};
+		7A50985926DAA99C001B3777 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4B259E26DBCEEE00EC3484 /* Constants.swift */,
+				7A50984326DAA596001B3777 /* AppDelegate.swift */,
+				7A50984526DAA596001B3777 /* SceneDelegate.swift */,
+				7A50984C26DAA597001B3777 /* Assets.xcassets */,
+				7A4B25AC26DC0F9000EC3484 /* Localizable.strings */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +177,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 7A50983726DAA596001B3777;
 			productRefGroup = 7A50984126DAA596001B3777 /* Products */;
@@ -124,9 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A4B25AA26DC0F9000EC3484 /* Localizable.strings in Resources */,
 				7A50985026DAA597001B3777 /* LaunchScreen.storyboard in Resources */,
 				7A50984D26DAA597001B3777 /* Assets.xcassets in Resources */,
-				7A50984B26DAA596001B3777 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +207,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A50984826DAA596001B3777 /* ViewController.swift in Sources */,
+				7A50985C26DAA9BA001B3777 /* GifCollectorMainTabBar.swift in Sources */,
+				7A4B25A226DBD26600EC3484 /* GifCell.swift in Sources */,
+				7A4B259626DBCDA000EC3484 /* iOSDevCenters+GIF.swift in Sources */,
+				7A4B259026DBCD8D00EC3484 /* GifData.swift in Sources */,
+				7A4B259126DBCD8D00EC3484 /* Gif.swift in Sources */,
+				7A4B259226DBCD8D00EC3484 /* GifNetworkManager.swift in Sources */,
+				7A4B259F26DBCEEE00EC3484 /* Constants.swift in Sources */,
 				7A50984426DAA596001B3777 /* AppDelegate.swift in Sources */,
+				7A4B259726DBCDA000EC3484 /* UIImageView+loadGifImage.swift in Sources */,
+				7A4B25A526DBD5CA00EC3484 /* UIView+edgesToSuperView.swift in Sources */,
+				7A50986426DAABFE001B3777 /* GifCollectorViewController.swift in Sources */,
 				7A50984626DAA596001B3777 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,18 +225,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7A50984926DAA596001B3777 /* Main.storyboard */ = {
+		7A4B25AC26DC0F9000EC3484 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7A50984A26DAA596001B3777 /* Base */,
+				7A4B25AB26DC0F9000EC3484 /* en */,
+				7A4B25AF26DC103000EC3484 /* ru */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		7A50984E26DAA597001B3777 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7A50984F26DAA597001B3777 /* Base */,
+				7A4B25AE26DC103000EC3484 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
