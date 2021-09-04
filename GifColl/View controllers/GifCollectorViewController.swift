@@ -84,11 +84,17 @@ class GifCollectorViewController: UICollectionViewController {
             }
         }
         
-        if tabBarController?.selectedIndex == 1 && collector.savedGifUrls.isEmpty {
+        if collector.modelState == .saved {
             self.view.addSubview(emptyListMessageLabel)
             self.view.addSubview(findButton)
             
             setupLayout()
+        }
+        
+        if collector.savedGifUrls.isEmpty {
+            self.showEmptyScreenElements()
+        } else {
+            self.hideEmptyScreenElements()
         }
     }
     
@@ -134,6 +140,9 @@ extension GifCollectorViewController {
     }
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        if collector.currentModelSize == 0 {
+//            self.showEmptyScreenElements()
+//        }
         return collector.currentModelSize
     }
 
@@ -177,8 +186,13 @@ extension GifCollectorViewController: GifCollectorCellDelegate {
     func pinGifTapped(delegateFrom cell: GifCell) {
         guard  let url = URL(string: cell.gifUrlString) else { return }
         if self.tabBarController?.selectedIndex == 0 {
-            collector.save(url)
-            cell.saveButton.setImage(UIImage(systemName: "pin.fill"), for: .normal)
+            if !collector.savedGifUrls.contains(url) {
+                collector.save(url)
+                cell.saveButton.setImage(UIImage(systemName: "pin.fill"), for: .normal)
+            } else {
+                collector.remove(url)
+                cell.saveButton.setImage(UIImage(systemName: "pin"), for: .normal)
+            }
         } else if self.tabBarController?.selectedIndex == 1 {
             collector.remove(url)
             self.collectionView.reloadData()

@@ -72,8 +72,8 @@ extension GifCollectorMainTabBar: UITabBarControllerDelegate {
                     secondVC?.showEmptyScreenElements()
                 } else {
                     secondVC?.hideEmptyScreenElements()
-                    self.secondVC?.collectionView.reloadData()
                 }
+                self.secondVC?.collectionView.reloadData()
             } else {
                 print("it's IDC tab")
             }
