@@ -8,3 +8,5 @@
 
 "Browse" = "Browse GIFs";
 "Saved" = "Saved";
+"Empty" = "There is no saved GIFs, it's time to find and save some...";
+"BrowseGifs" = "Find";

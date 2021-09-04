@@ -8,13 +8,12 @@
 import Foundation
 
 struct Gif {
-    var gifUrl: URL
+    var gifUrlPreview: URL?
     
     init?(gifData: GifData) {
-        //let urlString = gifData.data.images.original.url
-        //let urlString = gifData.data.fixedHeightSmallURL
-        let urlString = gifData.data.fixedHeightDownsampledURL
-        guard let url = URL(string: urlString) else { return nil }
-        self.gifUrl = url
+        let urlPreviewString = gifData.data.images.previewGIF.url
+        if let url = URL(string: urlPreviewString) {
+            self.gifUrlPreview = url
+        }
     }
 }
