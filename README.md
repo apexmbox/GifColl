@@ -1,3 +1,5 @@
+#Gif Collector
+
 Приложение для работы с API giphy.com
 
 2 экрана:
