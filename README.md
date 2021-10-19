@@ -1,4 +1,4 @@
-#Gif Collector
+# Gif Collector
 
 Приложение для работы с API giphy.com
 
